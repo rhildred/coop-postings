@@ -61,10 +61,12 @@ $model = $model->data[0];
 <hr>
 
 <!-- Post Content ... This is where you will put in data from the database-->
-<p class="lead">Requirements</p>
+<p class="lead">Education Requirements</p>
+<p><?php echo $model->educationRequirements ?></p>
+<p class="lead">Employment Type</p>
+<p><?php echo $model->employmentType ?></p>
+<p class="lead">Experience Requirements</p>
 <p><?php echo $model->experienceRequirements ?></p>
-<p class="lead">Responsibilities</p>
-<p><?php echo $model->responsibilities ?></p>
 
 <hr>
 
