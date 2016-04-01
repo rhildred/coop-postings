@@ -61,10 +61,23 @@ $model = $model->data[0];
 <hr>
 
 <!-- Post Content ... This is where you will put in data from the database-->
+<p class="lead">Occupational Category </p>
+<p><?php echo $model->occupationalCategory ?></p>
+<p class="lead">Address </p>
+<p><?php echo $model->jobLocationAddress ?></p>
+<p class="lead">Employment Type & Hours</p>
+<p><?php echo $model->employmentType ?></p>
+<p><?php echo $model->workHours ?></p>
+<p class="lead">Qualifications & Skills Needed </p>
+<p><?php echo $model->qualifications ?></p>
+<p><?php echo $model->skills ?></p>
 <p class="lead">Requirements</p>
 <p><?php echo $model->experienceRequirements ?></p>
-<p class="lead">Responsibilities</p>
+<p class="lead">Job Duties</p>
 <p><?php echo $model->responsibilities ?></p>
+<p class="lead">Contact for more Information </p>
+<p><?php echo $model->hiringOrganizationEmployeeName ?></p>
+<p><?php echo $model->hiringOrganizationEmail ?></p>
 
 <hr>
 
@@ -72,7 +85,7 @@ $model = $model->data[0];
 
 <!-- Comments Form -->
 <div class="well">
-    <h4>Leave a Comment:</h4>
+    <h4>Leave your Feedback for Others!:</h4>
     <form role="form">
         <div class="form-group">
             <textarea class="form-control" rows="3"></textarea>
@@ -94,7 +107,7 @@ $model = $model->data[0];
         <h4 class="media-heading">Start Bootstrap
             <small>August 25, 2014 at 9:30 PM</small>
         </h4>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        It was a great place to work, definetly a great place to be!
     </div>
 </div>
 
@@ -107,7 +120,7 @@ $model = $model->data[0];
         <h4 class="media-heading">Start Bootstrap
             <small>August 25, 2014 at 9:30 PM</small>
         </h4>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        Having brought my precious child here i have had veryyy satisfying results!!!!!
         <!-- Nested Comment -->
         <div class="media">
             <a class="pull-left" href="#">
@@ -117,7 +130,7 @@ $model = $model->data[0];
                 <h4 class="media-heading">Nested Start Bootstrap
                     <small>August 25, 2014 at 9:30 PM</small>
                 </h4>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                Have had interactions with the employees at this location. Very friendly and happy people. They are great to have as neighbours and they are always mindful of you!
             </div>
         </div>
         <!-- End Nested Comment -->
