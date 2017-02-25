@@ -35,7 +35,7 @@ layout("layout.phtml");
 <div ng-controller="indexCtrl">
     <h1 class="page-header">
         <?php echo $model->sTitle ?>
-        <small ng-hide="currentUser != null">making high school more engaging</small>
+        <small ng-hide="currentUser != null">-making high school more engaging!</small>
         <small ng-hide="currentUser == null">opportunities for {{currentUser.name}}</small>
     </h1>
 
@@ -51,7 +51,7 @@ layout("layout.phtml");
         <hr>
         <img class="img-responsive" src="http://placehold.it/900x300" alt="">
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
+        <p>Looking for an opportunity to show your skills? Co-op was made for you!</p>
         <a class="btn btn-primary" href="/postings/{{posting.id}}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
         <hr>
